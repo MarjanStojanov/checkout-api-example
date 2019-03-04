@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+
+<head>
+
+
+
+</head>
+
+
+
+<body>
+	<form id='checkout-form'>
+		<br><label>First Name:       </label><input type="text" id="first_name" name="first_name" required>
+		<br><label>Last Name:        </label><input type="text" id="last_name"  name="last_name"  required>
+		<br><label>Email:            </label><input type="text" id="email"      name="email"      required>
+		<br><label>Address 1:        </label><input type="text" id="address1"   name="address1"   required>
+		<br><label>Address 2:		 </label><input type="text" id="address2"   name="address2"   >
+		<br><label>City:			 </label><input type="text" id="city"       name="city"       required>
+		<br><label>Company:		     </label><input type="text" id="company"    name="company"    >
+		<br><label>Country:          </label><input type="text" id="country"    name="country"    required>
+		<br><label>Phone:			 </label><input type="text" id="phone"      name="phone"      >
+		<br><label>Province:		 </label><input type="text" id="province"   name="province"   required>
+		<br><label>ZIP:				 </label><input type="text" id="zip"        name="zip"        required>
+		<br><br>
+
+	</form>
+
+	<button id="submit-btn">SEND AJAX</button>
+
+
+	<form id='ship-rates-form'>
+
+	</form>
+
+
+<script type="text/javascript" src={{url_for('static', filename='js/jq.js')}}></script>
+<script type="text/javascript" src={{url_for('static', filename='js/custom.js')}}></script>
+</body>
